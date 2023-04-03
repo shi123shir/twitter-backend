@@ -20,9 +20,7 @@ const { registerUser,
 
 
 
- router.get("/",(req,res)=>{
-   return res.send("Welcome in appliction")
- })
+ 
 // user
 
 router.post("/register", registerUser)
@@ -44,6 +42,10 @@ router.get("/paginateTweets",authentication,paginateTweet)
 router.post("/:tweetId/like",authentication,liketweet)
 router.post("/:tweetId/retweet",authentication,retweet)
 
+
+router.get('/',(req,res)=>{
+    return res.send('Welcome To This Project !!')           
+   })
 
 
 
