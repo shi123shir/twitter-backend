@@ -18,6 +18,11 @@ const { registerUser,
 
  const {authentication,authorization} = require("../middleware/auth")
 
+
+
+ router.get("/",(req,res)=>{
+   return res.send("Welcome in appliction")
+ })
 // user
 
 router.post("/register", registerUser)
