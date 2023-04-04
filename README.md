@@ -1,4 +1,5 @@
-# Jira project
+# twitter-backend
+
 This is a twitter-like app were user can register then usercan login with their email and password after login user can follow or unfollow another user. user can do this only in their own account 
 and user can create a tweet and search tweet user can like some one tweets and also retweets the tweet for more information you can clone this repo and run with the help of postman.
 follow the steps-
